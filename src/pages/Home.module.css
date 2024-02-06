@@ -1,0 +1,23 @@
+.swiper {
+  display: flex;
+  width: 99vw;
+  justify-content: center;
+  background-color: #d4d4d4;
+}
+
+.prodItem {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.container {
+  display: grid;
+  width: 100%;
+  gap: 20px;
+  padding: 15px;
+  margin-top: 20px;
+  overflow: hidden;
+  grid-template-columns: repeat(5, 1fr);
+}
+
